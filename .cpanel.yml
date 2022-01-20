@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/andromod/public_html/demo/tweet
+    - /bin/cp * $DEPLOYPATH
